@@ -13,7 +13,7 @@ What you will create...
 
 The example presented here creates a classification model capable of predicting the income category from a census dataset (conducted in the United States). The two income categories, also called "labels", are as follows:
 
-* >50K: incomes above $50,000
+* \>50K: incomes above $50,000
 * <=50K: income less than or equal to $50,000
 
 The example defines the model using the Keras Sequential API. It also defines the data transformations that are specifically relevant to the census dataset, before assigning these (potentially) transformed features to the DNN or linear part of the model.
